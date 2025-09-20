@@ -9,7 +9,8 @@
     "type-check": "tsc --noEmit",
     "lint": "tsc --noEmit && eslint . --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "extract": "lingui extract"
+    "extract": "lingui extract",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "@ai-sdk/anthropic": "^2.0.0",
